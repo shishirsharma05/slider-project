@@ -1,0 +1,41 @@
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+.slider{
+	background-color: #77757585;
+	color: white;
+	padding: 70px;
+}
+.slider h1{
+	font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    
+}
+.slider p{
+	font-size: 16px;
+    margin-bottom: 25px;
+    
+}
+.slider button {
+    margin: 25px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 6px 36px;
+    border: none;
+   transition: .3s;
+   font-family: sans-serif;
+}
+.slider button:hover{
+	background-color: #c0d1e1;
+	color: #000;
+}
+.carousel-indicators [data-bs-target] {
+    width: 16px;
+    height: 15px;
+   	border-radius: 50%;
+   }

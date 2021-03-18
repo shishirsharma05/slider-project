@@ -1,0 +1,143 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .slider h1 {
+	    font-size: 20px;
+	    margin-top: 3px;
+	    margin-bottom: 10px;
+	}
+	.slider p {
+	    font-size: 11px;
+	    margin-bottom: 14px;
+	}
+	.carousel-control-prev {
+   		top: -22px;
+	}
+	.carousel-control-next {
+	    top: -31px;
+	}
+	.slider button {
+	    margin: 2px 0px;
+    	font-size: 10px;
+	    border-radius: 5px;
+	  	padding: 7px 23px;
+	    border: none;
+	}
+	.carousel-indicators {
+	    bottom: 13px;
+    	margin-right: 21%;
+	    
+	}
+	.carousel-indicators [data-bs-target] {
+	    width: 9px;
+	    height: 9px;
+	    border-radius: 50%;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slider h1 {
+	    font-size: 21px;
+	    margin-top: 3px;
+	    margin-bottom: 10px;
+	}
+	.slider p {
+	    font-size: 12px;
+	    margin-bottom: 14px;
+	}
+	.carousel-control-prev {
+    	top: -61px;
+	}
+	.carousel-control-next {
+	    right: 36px;
+	    top: -62px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slider h1 {
+	    font-size: 30px;
+	    margin-top: 30px;
+	    margin-bottom: 20px;
+	}
+	.slider p {
+    	font-size: 15px;
+	}
+    .carousel-item {
+   		 width: 60%;
+   		}
+   	.carousel-control-prev {
+    	left: -30px;
+	}
+	.carousel-control-next{
+		left: 48%;
+
+	}
+	.carousel-indicators {
+        margin-right: 62%;
+    	margin-left: 15%;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-item {
+   		 width: 60%;
+   		}
+   	.carousel-control-prev {
+    	left: -30px;
+	}
+	.carousel-control-next{
+		left: 48%;
+
+	}
+	.carousel-indicators {
+        margin-right: 62%;
+    	margin-left: 15%;
+	}
+}
+
+/*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .carousel-item {
+   		 width: 60%;
+   		}
+   	.carousel-control-prev {
+    	left: -30px;
+	}
+	.carousel-control-next{
+		left: 48%;
+
+	}
+	.carousel-indicators {
+        margin-right: 62%;
+    	margin-left: 15%;
+	}
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	.slider h1 {
+    	font-size: 45px;
+
+	}
+	.slider p {
+    	font-size: 18px;
+	}
+    .carousel-item {
+   		 width: 60%;
+   		}
+   	.carousel-control-prev {
+    	left: -52px;
+	}
+	.carousel-control-next{
+		left: 48%;
+
+	}
+	.carousel-indicators {
+        margin-right: 62%;
+    	margin-left: 15%;
+	}
+	
+}
